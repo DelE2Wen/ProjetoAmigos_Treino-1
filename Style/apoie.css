@@ -1,0 +1,18 @@
+.nosapoie{
+  padding-top: 20px;
+  text-align: center;
+  background-color: #72b3cb;
+  height: 300px;
+}
+.nosapoie h2{
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.doetexto{
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.textinho{
+  margin-top: 60px;
+}

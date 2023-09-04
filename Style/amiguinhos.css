@@ -1,0 +1,72 @@
+.section-container{
+  display: grid;
+  grid-template-columns: repeat(3, 270px);
+  margin-top: 30px;
+  justify-content: center;
+}
+.section-container h1{
+  grid-column: 1/-1;
+  text-align: center;
+}
+.animais{
+  width: 240px;
+  height: 500px;
+  justify-items: center;
+  margin-top: 40px;
+  justify-self: center;
+}
+.animal-img{
+  width: 240px;
+}
+
+.text{
+  display: grid;
+  grid-template-columns: 1fr;
+  height:150px;
+  border-radius: 4px;
+}
+.texto{
+  color:#02212c;
+}
+.nome-animal{
+  color: #000;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.adotar{
+  box-sizing: border-box;
+  color:#fff; 
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 2px 6px;
+  text-align: center;
+  background-color: #1fb18f;
+  text-decoration: underline;
+}
+.adotar:hover{
+  color: #eee;
+  background-color: #096650;
+}
+.vermais{
+  display: block;
+  text-align: center;
+  margin: 120px 0px;
+}
+.vermais a{
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #fff;
+  background-color: #0d6b28;
+  padding: 18px 24px;
+  text-decoration: none;
+}
+.vermais a:hover{
+  background-color: #043f14;
+}
+
+@media (max-width: 700px) {
+  .section-container {
+    grid-template-columns: 1fr;
+  }
+}

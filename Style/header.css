@@ -1,0 +1,53 @@
+.header-contato{
+  background-color: #004614;
+  height: 40px;
+}
+
+.header-container{
+  background-image: url("../Dogs/headerBG.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 620px;
+}
+.header-nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  max-width: 140px;
+}
+.header-menu{
+  display: flex;
+  gap: 60px;
+  background-color: rgba(155, 209, 170, .3);
+  align-items: center;
+  padding: 35px 40px;
+}
+.header-menu a{
+  color: #d2d8db;
+  font-size: 1.1rem;
+  text-decoration: none;
+  padding: 16px 22px;
+  background-color: #004614;
+}
+.header-menu a:hover{
+  background-color: #0d6b28;
+}
+.headerNav-list{
+  list-style: none;
+}
+
+@media (max-width: 770px){
+  .header-container{
+    background-image: none;
+    height: 200px;
+  }
+  .header-menu{
+    display: none;
+  }
+  .header-nav{
+    justify-content: start;
+  }
+}

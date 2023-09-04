@@ -1,0 +1,40 @@
+.faleconosco-container{
+  height: 500px;
+}
+.faleconosco-container h2{
+  text-align: center;
+  margin: 30px 0;
+}
+.contatoentrar{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+label{
+  display: block;
+  margin-bottom: 6px;
+}
+input {
+  font-size: 1.2rem;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.botaoEnvio{
+  margin-top: 10px;
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background: #043f14;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer{
+  background-color: #dcfae5;
+}
+footer p{
+  text-align: center;
+  padding: 20px;
+}
